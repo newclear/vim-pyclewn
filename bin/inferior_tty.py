@@ -1,7 +1,8 @@
 #!/usr/bin/python
 
-import sys
+import os
 pyclewnpath = os.path.expanduser('~/.vim/bundle/vim-pyclewn/pyclewn')
+import sys
 sys.path.append(pyclewnpath)
 
 #

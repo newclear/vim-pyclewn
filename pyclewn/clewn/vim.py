@@ -348,7 +348,7 @@ class Vim(object):
                 'echo v:version > 702 || v:version == 702 && has("patch253")',
                 'echo v:version > 702 || v:version == 702 && has("patch334")',
                 'echo v:version',
-                'runtime plugin/pyclewn.vim',
+                'runtime bundle/vim-pyclewn/plugin/pyclewn.vim',
                 'if exists("g:pyclewn_version")'
                     ' | echo g:pyclewn_version'
                     ' | endif',
